@@ -1,44 +1,65 @@
 body {
-    background-color: #f8f9fa;
-  }
-  
-  .card {
-    border: none;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .card img {
-    transition: transform 0.3s;
-  }
-  
-  .card:hover img {
-    transform: scale(1.1);
-  }
-  
-  .card-title {
-    font-size: 1.5rem;
-    color: #212529;
-    font-weight: bold;
-  }
-  
-  .card-text {
-    font-size: 1rem;
-    color: #6c757d;
-  }
-  
-  .btn-dark {
-    background-color: #492F10;
-    color: #f8f9fa;
-    border: none;
-  }
-  
-  .btn-dark:hover {
-    background-color: #664210;
-  }
-  
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  transition: transform 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #212529;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.btn-dark {
+  background-color: #492f10;
+  color: #f8f9fa;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #664210;
+}
+
+.navbar {
+  background-color: #492f10; /* Warna cokelat 492F10 */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff; /* Warna tulisan putih */
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.imglogo {
+  margin-left: 10px;
+}
+
+.shop {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+  filter: invert(1);
+}
